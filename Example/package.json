@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "15.2.1",
     "react-native": "0.29.2",
-    "react-native-permissions": "../"
+    "react-native-permissions": "git+https://github.com/jiw0220/react-native-permissions.git#master"
   },
   "devDependencies": {
     "babel-preset-react-native": "1.9.1"
