@@ -60,11 +60,12 @@ public class ReactNativePermissionsModule extends ReactContextBaseJavaModule {
         }
 
         if (permission.equals("notification")) {
-            if (mNotificationManagerCompat.areNotificationsEnabled()) {
-                promise.resolve("authorized");
-            } else {
-                promise.resolve("denied");
-            }
+//            if (mNotificationManagerCompat.areNotificationsEnabled()) {
+//                promise.resolve("authorized");
+//            } else {
+//                promise.resolve("denied");
+//            }
+            promise.resolve("denied");
             return;
         }
 
